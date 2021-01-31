@@ -1,17 +1,15 @@
-import React, { Components } from 'react'
-
-import Greet from './components/Greet';
+import Hello from './components/Hello'
+import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 
-class App extends Components {
-  render() {
-    return (
-      <div className="App">
-        <Greet />
-        <Welcome />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+      <Greet />
+      <Welcome />
+      <Hello />
+    </div>
+  );
 }
 
 export default App;
